@@ -564,6 +564,7 @@
             {"vid": "6-2-1", "name": "Catherine", "flag": "GB", "lang": "English", "accent": "British", "gender": "F"},
             {"vid": "5-4-1", "name": "Daniel", "flag": "GB", "lang": "English", "accent": "British", "gender": "M"},
             {"vid": "4-2-1", "name": "Elizabeth", "flag": "GB", "lang": "English", "accent": "British", "gender": "F"},
+            {"vid": "9-7-1", "name": "Gilbert", "flag": "GB", "lang": "English", "accent": "British", "gender": "M"},
             {"vid": "5-3-1", "name": "Hugh", "flag": "GB", "lang": "English", "accent": "British", "gender": "M"},
             {"vid": "2-7-1", "name": "Oliver", "flag": "GB", "lang": "English", "accent": "British", "gender": "M"},
             {"vid": "1-7-1", "name": "Olivia", "flag": "GB", "lang": "English", "accent": "British", "gender": "F"},
@@ -789,7 +790,9 @@
             {"vid": "3-2-16", "name": "Selin", "flag": "TR", "lang": "Turkish", "accent": "", "gender": "F"},
             {"vid": "1-7-16", "name": "Zehra", "flag": "TR", "lang": "Turkish", "accent": "", "gender": "F"},
             {"vid": "2-2-16", "name": "Zeynep", "flag": "TR", "lang": "Turkish", "accent": "", "gender": "F"},
-            {"vid": "1-7-40", "name": "Vira", "flag": "UA", "lang": "Ukrainian", "accent": "", "gender": "F"}
+            {"vid": "1-7-40", "name": "Vira", "flag": "UA", "lang": "Ukrainian", "accent": "", "gender": "F"},
+            {"vid": "1-7-41", "name": "Nguyet", "flag": "VN", "lang": "Vietnamese", "accent": "", "gender": "F"},
+            {"vid": "2-7-41", "name": "Phuong", "flag": "VN", "lang": "Vietnamese", "accent": "", "gender": "M"}
         ]
     },
     "VoiceForge":
