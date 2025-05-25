@@ -1227,7 +1227,7 @@
             {"vid": "mr-in", "name": "Marathi", "flag": "IN", "lang": "Marathi", "accent": "", "gender": "F"},
             {"vid": "my-mm", "name": "Myanmar (Burmese)", "flag": "MM", "lang": "Myanmar (Burmese)", "accent": "", "gender": "F"},
             {"vid": "ne-np", "name": "Nepali", "flag": "NP", "lang": "Nepali", "accent": "", "gender": "F"},
-            {"vid": "nb-no", "name": "Norwegian Bokmål", "flag": "NO", "lang": "Norwegian", "accent": "Bokmål", "gender": "F"},
+            {"vid": "nb-no", "name": "Norwegian", "flag": "NO", "lang": "Norwegian", "accent": "Bokmål", "gender": "F"},
             {"vid": "pl-pl", "name": "Polish", "flag": "PL", "lang": "Polish", "accent": "", "gender": "M"},
             {"vid": "pt-pt", "name": "Portuguese PT", "flag": "PT", "lang": "Portuguese", "accent": "Europe", "gender": "F"},
             {"vid": "pt-br", "name": "Portuguese BR", "flag": "BR", "lang": "Portuguese", "accent": "Brazil", "gender": "F"},
