@@ -16,9 +16,9 @@ class Acapela implements Service
 
     use ReturnObjectTrait;
 
-    const baseURL = 'https://h-ir-ssd-1.acapela-group.com/webservices/1-60-00/UrlMaker.json';
+    const baseURL = 'https://voice.reverso.net/RestPronunciation.svc/v1/output=json';
 
-    const demoSite = 'https://www.acapela-group.com/demos/';
+    const demoSite = 'https://voice.reverso.net/test/';
 
     /**
      * Full name of this service.
@@ -91,13 +91,23 @@ class Acapela implements Service
 
         // Headers to pretend we're making a request from the demo website
         $headers = [
-            'Content-Type: application/x-www-form-urlencoded;charset=UTF-8',
-            'User-Agent: ' . $_SERVER['HTTP_USER_AGENT'],
-            'Referer: https://www.acapela-group.com/demos/',
-            'Origin: https://www.acapela-group.com/demos/',                             
+            'Host: voice.reverso.net',
+            'Accept: */*',
+            'Accept-Language: en-US,en;q=0.9',
+            'Accept-Encoding: identity;q=1, *;q=',
+            'Origin: https://voice.reverso.net',
+            'Cookie: __cf_bm:owDj8AxPm7qVhRJoXVyC8zu.GxlGIJVe9H2_FH5bW7c-1748279727-1.0.1.1-byBYth0P9oO1LL3zeiVbc_qz_EI75HXjQHFI9TIZybJdVn3pqPvt3WtnVyi3CnWo3PvvT5hbpQ8cqpv7DPZirsqcE5F5FfkLH1p2ANtvxLI',
+            'DNT: 1',
+            'Priority: u=1, i',
+            'Referer: https://www.reverso.com/',
+            'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0',
+            'Sec-Fetch-Dest: empty',
+            'Sec-Fetch-Mode: cors',
+            'Sec-Fetch-Site: same-site',
+            'Connection: keep-alive'                            
         ];
 
-        $requestStep1 = new Request('https://www.acapela-group.com/www/static/website/demoOptionsDef_voicedemo.php');
+        $requestStep1 = new Request('https://voice.reverso.net/api/v1/tts/$voice');
         $requestStep1->sendRequest('', false, $headers);
         $responseStep1 = $requestStep1->getResponse();
         
