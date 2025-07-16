@@ -19,7 +19,7 @@ class IBMWatson implements Service
 
     use ReturnObjectTrait;
 
-    const baseURL = 'https://www.ibm.com/demos/live/tts-demo/api/tts/newSynthesizer?';
+    const baseURL = 'tts-frontend.1poue1l648rk.us-east.codeengine.appdomain.cloud/api/tts/newSynthesizer?';
 
     const demoSite = 'https://www.ibm.com/demos/live/tts-demo/self-service/home';
 
