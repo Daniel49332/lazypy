@@ -112,7 +112,7 @@ class Acapela implements Service
             'session_time'  => $vaasOptions->session->time,
             'session_key'   => $vaasOptions->session->key,
             'req_voice'     => $voice,
-            'req_text'      => $text,
+            'req_text'      => .%0A%0A${text},
         ];
 
         // TODO: may want to use $vaasOptions->json_service_url rather than our hardcoded baseURL constant in case they ever change it?
